@@ -1,5 +1,4 @@
 #define OPT2  0x4803 
-// 8 977 944 94 37
 void EEPROM_Unlock( void ){
   FLASH_DUKR = 0xAE;
   FLASH_DUKR = 0x56;
